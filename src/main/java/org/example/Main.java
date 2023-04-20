@@ -109,7 +109,6 @@ public class Main {
 
 
                     double puissance = -(1 / (1 + Math.exp(-(distanceToNew - 0) / 80)) - 1);
-                    //System.out.println(puissance);
 
                     //System.out.println(distanceX +" "+distanceY);
                     if (distanceToNew < 120) {
