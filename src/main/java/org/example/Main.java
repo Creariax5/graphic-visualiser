@@ -96,7 +96,6 @@ public class Main {
             calcY = y - 500;
 
             double distanceToC = Math.sqrt(Math.pow(calcX, 2) + Math.pow(calcY, 2));
-
             double puissance = Math.pow(distanceToC/100, 1.15);
             if (distanceToC>500) {
                 puissance = 100;
